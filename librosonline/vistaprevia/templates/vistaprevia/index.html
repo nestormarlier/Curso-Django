@@ -1,13 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre del sitio: {{nombre_pagina}}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-    <h1 style="background-color: red;">Hola</h1>
-    <h2>Mundo</h2>
+    <h1 style="background-color: red">Hola<br></h1>
+    <h2 style="background-color: green;">Mundo</h2>
+    <p id="parrafo">Probando el parrafo a traves de Static en /css/styles.css</p>
     <p>Primer pagina: {{nombre_pagina}}</p>
 </body>
 </html>
