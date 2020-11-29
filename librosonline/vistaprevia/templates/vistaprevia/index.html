@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre del sitio: {{nombre_pagina}}</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <style>
+        #a1{background-color: yellowgreen;}
+        #a2{background-color: green;}
+        #a3{background-color: orangered;}
+    </style>
 </head>
 <body>
     <h1 style="background-color: yellowgreen">Hola<br></h1>
     <h2 style="background-color: green;">Mundo</h2>
     <p id="parrafo" class="color_letra">Probando el parrafo a travez de Static en /css/styles.css</p>
     <p class="color_letra tipo_letra posicion_letra">Primer pagina: {{nombre_pagina}}</p>
+    <a id="a1" class="tamaño_inline">11111111111111111</a>
+    <!-- Elementos tipo inline son: a, br, span, bdo, object, applet, img, map, iframe, tt, i, b,big, small
+    basefont,em, strong, dfn,code, q, sub,sup, samp, kbd, var, cite, abbr,acronym, input,
+    select, textarea, label, button -->
+    <a id="a2">22222222222222222</a>
+    <a id="a3">33333333333333333</a>
 </body>
 </html>
