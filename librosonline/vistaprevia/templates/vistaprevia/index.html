@@ -9,7 +9,13 @@
     <style>
         #a1{background-color: yellowgreen;}
         #a2{background-color: green;}
-        #a3{background-color: orangered;}
+        #a3{
+            background-color: orangered;
+            display: block; /*Puedo convertir un elemento inline a block */
+        }
+        #caja1{background-color: blue; display: inline;}
+        #caja2{background-color: darkgreen; display: inline;}
+        #caja3{background-color: red; display: inline;}
     </style>
 </head>
 <body>
@@ -17,11 +23,28 @@
     <h2 style="background-color: green;">Mundo</h2>
     <p id="parrafo" class="color_letra">Probando el parrafo a travez de Static en /css/styles.css</p>
     <p class="color_letra tipo_letra posicion_letra">Primer pagina: {{nombre_pagina}}</p>
+    
+    <h1>ELEMENTOS INLINE <br>(<small>a, br, span, bdo, object, applet, img, map, iframe, tt, i, b,big, small
+        basefont,em, strong, dfn,code, q, sub,sup, samp, kbd, var, cite, abbr,acronym, input,
+        select, textarea, label, button</small>)</h1>
     <a id="a1" class="tamaño_inline">11111111111111111</a>
     <!-- Elementos tipo inline son: a, br, span, bdo, object, applet, img, map, iframe, tt, i, b,big, small
     basefont,em, strong, dfn,code, q, sub,sup, samp, kbd, var, cite, abbr,acronym, input,
     select, textarea, label, button -->
     <a id="a2">22222222222222222</a>
     <a id="a3">33333333333333333</a>
+
+    <h1>ELEMENTOS BLOCK <br>(<small>p - h1, h2, h3, h4, h5, h6 - div, ul, ol, li - menu, dir, pre, hr, blockquote,
+        address, center, noframes, isindex, fieldset, table, form</small>)</h1>
+    <!-- Elementos tipo block p - h1, h2, h3, h4, h5, h6 - div, ul, ol, li - menú, dir, pre, hr, blockquote, address, 
+    center, noframes, isindex, fieldset, table, form -->
+    <h2 id="a1" class="tipo_letra posicion_letra">11111111111111111</h2>
+    <h2 id="a2">22222222222222222</h2>
+    <h2 id="a3">33333333333333333</h2>
+    
+    <h1>INLINE - BLOCK </h1>
+    <b id="caja1">CAJA 1</b>
+    <b id="caja2">CAJA 2</b>
+    <b id="caja3">CAJA 3</b>
 </body>
 </html>
