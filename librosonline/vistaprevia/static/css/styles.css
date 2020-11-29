@@ -1,12 +1,18 @@
 #parrafo{
-    background-color: blue;
+    background-color: red;
     /* color: red; si lo dejo asi no me pone el color de .color_letra */
 }
 
 .color_letra{
-    color: rgb(128, 0, 60);
+    color: blue;
+
 }
 
 .tipo_letra{
     font-style: italic;
+    font-size: x-large;
+}
+
+.posicion_letra{
+    text-align: center;
 }
