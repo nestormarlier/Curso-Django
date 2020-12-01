@@ -20,3 +20,11 @@
 .tamaño_inline{
     font-size: xx-large;
 }
+
+.block_list{
+    display: block;
+}
+
+.inline_list{
+    display: inline-block;
+}
