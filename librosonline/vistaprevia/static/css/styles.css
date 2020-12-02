@@ -28,3 +28,7 @@
 .inline_list{
     display: inline-block;
 }
+
+.display_none{
+    display: none;
+}

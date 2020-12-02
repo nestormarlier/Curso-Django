@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{nombre_pagina}}</title>
+</head>
+<body>
+    <style>
+        div{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background-color: aqua;
+            border: solid 2px orangered;
+        }
+    </style>
+    <h1>{{nombre_pagina}}</h1>
+    <p>
+        Posiciona al elemento de manera absoluta según top:, left:, bottom:, right:. Los valores de
+        estos 4 atributos son una distancia al primer elemento contenedor que tenga un valor
+        distinto de static. Si todos los contenedores del elemen
+        posiciona con respecto al lado superior de la página para top, con respecto al lado inferior
+        para bottom, al lado izquierdo para left o derecho para right.
+        Saca del flujo de la página al elemento que se le asigna.
+    </p>
+    <p>
+        Dado que no se ha especificado top, right, bottom o left, ambos elementos se posicionan
+        en el origen del elementos contenedor no “static”, en este caso el elementos “body” por lo
+        cual aparecen superpuestos, y dado que el últiimo por línea de código el “div2”, 
+        este es el que aparece en la superficie
+    </p>
+    <div>div 1</div>
+    <div>div 2</div>
+</body>
+</html>
