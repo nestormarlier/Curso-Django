@@ -17,3 +17,7 @@ def posicion_absoluta(request):
 def posicion_relativa(request):
     data = { 'nombre_pagina': 'Posición relativa'}
     return render(request,'vistaprevia/posicion_relative.html', data)
+
+def posicion_fija(request):
+    data = { 'nombre_pagina': 'Posición fija'}
+    return render(request,'vistaprevia/posicion_fixed.html', data)

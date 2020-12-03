@@ -6,4 +6,5 @@ urlpatterns = [
     path('estatica/', posicion_estatica, name="position_estatica"),
     path('absoluta/', posicion_absoluta, name="position_absoluta"),
     path('relativa/', posicion_relativa, name="position_relativa"),
+    path('fija/',posicion_fija, name="position_fija"),
 ]
