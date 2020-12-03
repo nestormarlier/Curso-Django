@@ -21,3 +21,7 @@ def posicion_relativa(request):
 def posicion_fija(request):
     data = { 'nombre_pagina': 'Posición fija'}
     return render(request,'vistaprevia/posicion_fixed.html', data)
+
+def cajas_centradas(request):
+    data = { 'nombre_pagina': 'Cajas centradas'}
+    return render(request, 'vistaprevia/posicion_centrada.html', data)

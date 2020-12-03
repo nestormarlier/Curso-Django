@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{nombre_pagina}}</title>
+</head>
+<body>
+    <style>
+        #fondo {
+            position: absolute;
+            width: 600px;
+            height: 370px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: green;
+        }
+    </style>
+    <h1>{{nombre_pagina}}</h1>
+    <h3>Centrar cajas de tipo absolute, relative y fixed</h3>
+    <p>
+        Le damos un ancho y alto a la caja para que no ocupe toda la pantalla y le indicamos que
+        se ubique a la misma distancia de la izquierda que de la derecha con un margen
+        automático. Dado que no puede estar a la misma distancia de ambos extremos, se queda
+        en el centro.
+    </p>
+    <div id="fondo"></div>
+</body>
+</html>
