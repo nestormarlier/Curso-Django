@@ -25,3 +25,7 @@ def posicion_fija(request):
 def cajas_centradas(request):
     data = { 'nombre_pagina': 'Cajas centradas'}
     return render(request, 'vistaprevia/posicion_centrada.html', data)
+
+def flotar_izquierda(request):
+    data = { 'nombre_pagina': 'Float Left'}
+    return render(request,'vistaprevia/posicion_float.html', data)
